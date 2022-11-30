@@ -2,6 +2,13 @@
 
 This repository offers touchscreen user-interface templates for interactive kiosk displays. Please fork repository and comment/push useful changes upstream.  
 
+## System Considerations
+
+Host your project online. GitHub won't host videos and you probably don't want to host them on YouTube (YouTube may provide users a kiosk exit). You can host your videos on your Pitt Linux server. 
+
+-For our project presentations, you'll run your project on either a Lenovo Duet Touchscreen Chromebook or a Lenovo 110e. We'll profile the best projects for public viewing on a dedicated ACER T272HL display. 
+
+
 ## **Hardware/Software Requirements**
 
 ### ACER T272HL LCD Touchscreen Monitor
@@ -10,14 +17,13 @@ This repository offers touchscreen user-interface templates for interactive kios
 * HDMI Cable
 * USB Keyboard Cable
 
+Test your site for [1920x1080 display](https://karpolan.com/services/site-viewer/1920x1080/).
+
 ### Chromebook 
 
 * Lenovo 3100 2-in-1 Touchscreen (7 qty)(1366 x 768)
-* Lenovo 110e (5 qty) (1366 x 768)
 * Lenovo Duet Touchscreen (15 qty)(USB-C only. Requires Dongle) (1920 x 1200)
 
-(potential local storage will depend on file size.)
-[Pitt Wireless Chromebook Configuration](https://www.technology.pitt.edu/help-desk/how-to-documents/pittnetwireless-configuring-acer-and-samsung-chromebooks) 
 
 **Powerwash Chromebook**
 
@@ -50,11 +56,6 @@ Once you've reset your Chromebook:
 
 (Remember. Hold ctrl+a to access admin password.)
 
-## System Considerations
-
-Host your project online. GitHub won't host videos and you probably don't want to host them on YouTube (YouTube may provide users a kiosk exit). You can host your videos on your Pitt Linux server. 
-
--For our project presentations, you'll run your project on either a Lenovo Duet Touchscreen Chromebook or a Lenovo 110e. We'll profile the best projects for public viewing on a dedicated ACER T272HL display. 
 
 
 ## Useful Code Snippets
