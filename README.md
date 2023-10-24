@@ -37,18 +37,18 @@ This toolkit includes, **16x9testtool.html**, a useful tool you can use to ensur
  
  Sorry. At the moment, image carousel requires either auto-play or user controls. See [W3 carousel tutorial](https://www.w3schools.com/howto/howto_js_slideshow.asp).  
  
- Time-out function
+ **Time-out function**
 
 ```
 <!--Place within <HEAD></HEAD>. Refreshes index.html after 180 seconds-->
   <meta http-equiv="refresh" content="180;url=index.html"> 
 ```
  
- Stop video from playing in modal window. 
- 
+**Stop video from playing in modal window.** 
+``` 
  </script>
 
-```
+
  <!-- Stops video/audio from playing on modal close -->
   <script>
   $(function(){
@@ -62,6 +62,24 @@ This toolkit includes, **16x9testtool.html**, a useful tool you can use to ensur
   </script>
 ```
  
+**Fade-in Animation**
+```
+  <style>
+    body {
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+</style>  
+```
 
 ## Embeds and other tools that you might find interesting
 
