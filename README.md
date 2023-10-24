@@ -17,45 +17,20 @@ Host your project online. GitHub won't host videos and you probably don't want t
 * HDMI Cable
 * USB Keyboard Cable
 
-Test your site for [1920x1080 display](https://karpolan.com/services/site-viewer/1920x1080/).
+Test your site using 16:9 testtool.html (see below)
 
-### Chromebook 
+### Google Chrome OS
 
-* Lenovo 3100 2-in-1 Touchscreen (7 qty)(1366 x 768)
-* Lenovo Duet Touchscreen (15 qty)(USB-C only. Requires Dongle) (1920 x 1200)
-
-
-**Powerwash Chromebook**
-
-1. Sign out of your Chromebook.
-2. Press and hold Ctrl + Alt + Shift + r.
-3. Select Restart.
-4. In the box that appears, select Powerwash. Continue.
-5. Follow the steps that appear and sign in with your   Google Account. ...
-Once you've reset your Chromebook:
-
-###Connecting to Pitt Net
-
-[CHECK HERE](https://www.technology.pitt.edu/help-desk/how-to-documents/pittnetwireless-configuring-acer-and-samsung-chromebooks)
-
-1. Select WIRELESS-PITTNET.
-2. In the Join Wi-Fi network window, select EAP method: **PEAP** 
-3. For Phase 2 authentication, select **MSCHAPv2**
-4. For Server CA certification, select **Default**
-3. In the Identity box, enter your University Computing Account username. (eg. abc1)
-4. In the Password box, enter your University Computing Account password.
-
-
-
-### Kiosk Chrome App
+We will use "Kiosk Chrome App" to run your website on the touchscreenkiosk. This tool locks down the user experience for the viewer. It will also limit you to normal Google Chrome Broweser constraints (ie. music will not play automatically on page load.) 
 
 [Kiosk Chrome App](https://chrome.google.com/webstore/detail/kiosk/afhcomalholahplbjhnmahkoekoijban)
 
-
 [Instructional Video](https://youtu.be/M5US4OcVnL4) 
 
-(Remember. Hold ctrl+a to access admin password.)
 
+### 16x9 Test Tool
+
+This toolkit includes, **16x9testtool.html**, a useful tool you can use to ensure your site adheres to 16:9 screen ratio constraint. 
 
 
 ## Useful Code Snippets
